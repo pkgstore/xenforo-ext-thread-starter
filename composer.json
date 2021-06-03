@@ -1,0 +1,37 @@
+{
+  "name": "pkgstore/xenforo-ext-thread-starter",
+  "type": "xenforo-extension",
+  "description": "",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/pkgstore",
+  "keywords": [
+    "xenforo",
+    "thread",
+    "starter"
+  ],
+  "authors": [
+    {
+      "name": "Kitsune Solar",
+      "email": "kitsune.solar@gmail.com",
+      "homepage": "https://KitsuneSolar.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/pkgstore/xenforo-ext-thread-starter/issues",
+    "source": "https://github.com/pkgstore/xenforo-ext-thread-starter"
+  },
+  "require": {
+    "composer/installers": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {}
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "prepend-autoloader": false
+  },
+  "extra": {
+    "installer-name": "ext_f830d4bf"
+  }
+}
