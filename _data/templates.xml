@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="public"
+            title="ext_f830d4bf.less"
+            version_id="1000070"
+            version_string="1.0.0"><![CDATA[.block {
+  &--messages {
+    .message {
+      &.message {
+        &--threadStarter {
+          .xf-ext_f830d4bf_message();
+        }
+      }
+
+      &[data-staff-admin='1'] {
+        .xf-ext_f830d4bf_adminMessage();
+      }
+
+      &[data-staff-moderator='1'] {
+        .xf-ext_f830d4bf_moderatorMessage();
+      }
+    }
+  }
+}
+
+.userBanner {
+  &.userBanner {
+    &-threadStarter {
+      .xf-ext_f830d4bf_banner();
+    }
+  }
+}]]></template>
+  <template type="public"
+            title="ext_f830d4bf_banner"
+            version_id="1000070"
+            version_string="1.0.0"><![CDATA[<xf:if is="$xf.options.ext_f830d4bf_banner">
+<div class="userBanner userBanner-threadStarter message-userBanner" dir="auto">
+  <span class="userBanner-before"></span>
+  <strong>{{ phrase('ext_f830d4bf_banner') }}</strong>
+  <span class="userBanner-after"></span>
+</div>
+</xf:if>]]></template>
+</templates>

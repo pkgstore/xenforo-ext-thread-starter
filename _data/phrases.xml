@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="ext_f830d4bf_thread_starter_banner" version_id="1000070" version_string="1.0.0"><![CDATA[Автор темы]]></phrase>
+  <phrase title="option.ext_f830d4bf_banner" version_id="1000070" version_string="1.0.0"><![CDATA[Баннер автора темы]]></phrase>
+  <phrase title="option_explain.ext_f830d4bf_banner" version_id="1000070" version_string="1.0.0"><![CDATA[Включение / отключение баннера автора темы.]]></phrase>
+  <phrase title="option.ext_f830d4bf_adminMessage" version_id="1000070" version_string="1.0.0"><![CDATA[Оформление сообщений администратора]]></phrase>
+  <phrase title="option_explain.ext_f830d4bf_adminMessage" version_id="1000070" version_string="1.0.0"><![CDATA[Включение / отключение оформления сообщений администратора.]]></phrase>
+  <phrase title="option.ext_f830d4bf_moderatorMessage" version_id="1000070" version_string="1.0.0"><![CDATA[Оформление сообщений модератора]]></phrase>
+  <phrase title="option_explain.ext_f830d4bf_moderatorMessage" version_id="1000070" version_string="1.0.0"><![CDATA[Включение / отключение оформления сообщений модератора.]]></phrase>
+  <phrase title="option_group.ext_f830d4bf" version_id="1000070" version_string="1.0.0"><![CDATA[Thread Starter]]></phrase>
+  <phrase title="option_group_description.ext_f830d4bf" version_id="1000070" version_string="1.0.0"><![CDATA[Оформление сообщений от автора темы, администратора и модератора.]]></phrase>
+  <phrase title="style_prop.ext_f830d4bf_banner" version_id="1000070" version_string="1.0.0"><![CDATA[Баннер автор темы]]></phrase>
+  <phrase title="style_prop_desc.ext_f830d4bf_banner" version_id="1000070" version_string="1.0.0"><![CDATA[Оформление баннера автора темы.]]></phrase>
+  <phrase title="style_prop.ext_f830d4bf_message" version_id="1000070" version_string="1.0.0"><![CDATA[Сообщение автор темы]]></phrase>
+  <phrase title="style_prop_desc.ext_f830d4bf_message" version_id="1000070" version_string="1.0.0"><![CDATA[Оформление сообщения от автора темы.]]></phrase>
+  <phrase title="style_prop.ext_f830d4bf_adminMessage" version_id="1000070" version_string="1.0.0"><![CDATA[Сообщение администратора]]></phrase>
+  <phrase title="style_prop_desc.ext_f830d4bf_adminMessage" version_id="1000070" version_string="1.0.0"><![CDATA[Оформление сообщения от администратора.]]></phrase>
+  <phrase title="style_prop.ext_f830d4bf_moderatorMessage" version_id="1000070" version_string="1.0.0"><![CDATA[Сообщение модератора]]></phrase>
+  <phrase title="style_prop_desc.ext_f830d4bf_moderatorMessage" version_id="1000070" version_string="1.0.0"><![CDATA[Оформление сообщения от модератора.]]></phrase>
+  <phrase title="style_prop_group.ext_f830d4bf" version_id="1000070" version_string="1.0.0"><![CDATA[Thread Starter]]></phrase>
+  <phrase title="style_prop_group_desc.ext_f830d4bf" version_id="1000070" version_string="1.0.0"><![CDATA[Оформление сообщений от автора темы, администратора и модератора.]]></phrase>
+</phrases>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style_properties>
+  <style_property property_name="ext_f830d4bf_banner"
+                  group_name="ext_f830d4bf"
+                  title="Баннер автора темы"
+                  description="Оформление баннера автора темы."
+                  property_type="css"
+                  display_order="1"
+                  css_components="text,background,border,padding,extra">
+    <value>{
+      "color": "#aa6709",
+      "background-color": "#fff4e5",
+      "border-color": "#f9c479"
+      }
+    </value>
+  </style_property>
+  <style_property property_name="ext_f830d4bf_message"
+                  group_name="ext_f830d4bf"
+                  title="Сообщение автора темы"
+                  description="Оформление сообщений от автора темы."
+                  property_type="css"
+                  display_order="2"
+                  css_components="text,background,border,padding,extra">
+    <value>[]</value>
+  </style_property>
+  <style_property property_name="ext_f830d4bf_adminMessage"
+                  group_name="ext_f830d4bf"
+                  title="Сообщение администратора"
+                  description="Оформление сообщений от администратора."
+                  property_type="css"
+                  display_order="3"
+                  css_components="text,background,border,padding,extra">
+    <value>[]</value>
+  </style_property>
+  <style_property property_name="ext_f830d4bf_moderatorMessage"
+                  group_name="ext_f830d4bf"
+                  title="Сообщение модератора"
+                  description="Оформление сообщений от модератора."
+                  property_type="css"
+                  display_order="4"
+                  css_components="text,background,border,padding,extra">
+    <value>[]</value>
+  </style_property>
+</style_properties>

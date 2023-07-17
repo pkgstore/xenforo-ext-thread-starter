@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public"
+                template="post_macros"
+                modification_key="ext_f830d4bf_less"
+                description=""
+                execution_order="9999"
+                enabled="1"
+                action="str_replace">
+    <find><![CDATA[<xf:css src="message.less" />]]></find>
+    <replace><![CDATA[$0
+<xf:css src="ext_f830d4bf.less" />]]></replace>
+  </modification>
+  <modification type="public"
+                template="post_macros"
+                modification_key="ext_f830d4bf_post_ts"
+                description=""
+                execution_order="9999"
+                enabled="1"
+                action="str_replace">
+    <find><![CDATA[message message--post]]></find>
+    <replace><![CDATA[$0 <xf:if is="$post.user_id == $thread.user_id AND $post.position != 0">message--threadStarter</xf:if>]]></replace>
+  </modification>
+  <modification type="public"
+                template="post_macros"
+                modification_key="ext_f830d4bf_post_staff"
+                description=""
+                execution_order="9999"
+                enabled="1"
+                action="str_replace">
+    <find><![CDATA[data-content="post-{$post.post_id}"]]></find>
+    <replace><![CDATA[$0
+<xf:if is="$xf.options.ext_f830d4bf_moderatorMessage">data-staff-moderator="{$post.User.is_moderator}"</xf:if>
+<xf:if is="$xf.options.ext_f830d4bf_adminMessage">data-staff-admin="{$post.User.is_admin}"</xf:if>]]></replace>
+  </modification>
+  <modification type="public"
+                template="message_macros"
+                modification_key="ext_f830d4bf_banner"
+                description=""
+                execution_order="9999"
+                enabled="1"
+                action="str_replace">
+    <find><![CDATA[<xf:usertitle user="$user" tag="h5" class="message-userTitle" banner="true" itemprop="jobTitle" />]]></find>
+    <replace><![CDATA[$0
+<xf:if is="$user.user_id == $__globals.thread.user_id">
+  <xf:include template="ext_f830d4bf_banner" />
+</xf:if>]]></replace>
+  </modification>
+</template_modifications>
