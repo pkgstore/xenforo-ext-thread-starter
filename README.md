@@ -7,7 +7,6 @@
 | License      | MIT                                                |
 | Language     | Russian                                            |
 | Requirements | XenForo 2.1                                        |
-| Authors      | [iHub TO](mailto:mail@ihub.to)                     |
 
 Оформление сообщений от автора темы, администратора и модератора для [**XenForo**](https://xenforo.com).
 
